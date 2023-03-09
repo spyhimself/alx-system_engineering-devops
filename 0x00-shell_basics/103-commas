@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s," $(ls -1Ap | sed 's/\([^\/]\)$/\1\//; s/^(\.\/)?(\.\.\/)?([a-zA-Z0-9])/\3\2\1/g' | sort -df) && echo
+ls -m *
